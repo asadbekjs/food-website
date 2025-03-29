@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <!-- Font-awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <!-- Header section starts -->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper flex">
+          <a href="./home.html" class="header__logo">
+            <i class="fa-solid fa-utensils"></i>
+            Food
+          </a>
+          <nav class="header__navbar">
+            <ul class="header__list flex">
+              <li class="header__item">
+                <a href="#" class="header__link">Home</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">About</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Popular</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Menu</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Order</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Blogs</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__buttons flex">
+            <div class="header__search header__btn flex-center">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="./cart.html" class="header__btn flex-center">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            <a href="./login.html" class="header__btn flex-center">
+              <i class="fa-solid fa-user"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Hero section starts -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__left">
+            <h3 class="hero__subtitle">welcome foodies</h3>
+            <h1 class="hero__title">
+              different spices for the different tastes
+              <span><i class="fa-regular fa-face-smile-wink"></i></span>
+            </h1>
+            <p class="hero__description section__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consectetur laborum quisquam ipsam quibusdam aperiam. Repellendus!
+            </p>
+            <button class="hero__button section__button">Order now</button>
+          </div>
+          <div class="hero__right">
+            <img
+              class="hero__image1"
+              src="./images/hero-img.png"
+              alt="food image"
+            />
+            <img
+              class="hero__image2"
+              src="./images/food-img.png"
+              alt="food and stick image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section ends -->
+
+    <!-- Category section starts -->
+    <section class="category">
+      <div class="container">
+        <div class="category__cards">
+          <div class="category__card">
+            <img
+              class="category__image"
+              src="./images/category-1.png"
+              alt="category image 1"
+            />
+            <h3 class="category__title">Combo</h3>
+          </div>
+          <div class="category__card">
+            <img
+              class="category__image"
+              src="./images/category-2.png"
+              alt="category image 2"
+            />
+            <h3 class="category__title">Pizza</h3>
+          </div>
+          <div class="category__card">
+            <img
+              class="category__image"
+              src="./images/category-3.png"
+              alt="category image 3"
+            />
+            <h3 class="category__title">Burger</h3>
+          </div>
+          <div class="category__card">
+            <img
+              class="category__image"
+              src="./images/category-4.png"
+              alt="category image 4"
+            />
+            <h3 class="category__title">Chicken</h3>
+          </div>
+          <div class="category__card">
+            <img
+              class="category__image"
+              src="./images/category-5.png"
+              alt="category image 5"
+            />
+            <h3 class="category__title">Dinner</h3>
+          </div>
+          <div class="category__card">
+            <img
+              class="category__image"
+              src="./images/category-6.png"
+              alt="category image 6"
+            />
+            <h3 class="category__title">Coffee</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Category section ends -->
+
+    <!-- Popular section starts -->
+    <div class="container">
+      <div class="popular__wrapper">
+        <div class="popular__top">
+          <h3 class="popular__subtitle section__subtitle">popular food</h3>
+          <h2 class="popular__title section__title">our special dishes</h2>
+        </div>
+        <div class="popular__bottom">
+          <div class="popular__card">
+            <span class="popular__card--heart"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <img
+              class="popular__card--image"
+              src="./images/food-1.png"
+              alt="food 1 image"
+            />
+            <h3 class="popular__card--title">delicious food</h3>
+            <div class="popular__card--stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(50)</span>
+            </div>
+            <div class="popular__card--prices">
+              <p class="popular__card--discount">$40.00</p>
+              <p class="popular__card--price">$50.00</p>
+            </div>
+            <button class="popular__card--button section__button">
+              Add to cart
+            </button>
+          </div>
+          <div class="popular__card">
+            <span class="popular__card--heart"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <img
+              class="popular__card--image"
+              src="./images/food-1.png"
+              alt="food 1 image"
+            />
+            <h3 class="popular__card--title">delicious food</h3>
+            <div class="popular__card--stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(50)</span>
+            </div>
+            <div class="popular__card--prices">
+              <p class="popular__card--discount">$40.00</p>
+              <p class="popular__card--price">$50.00</p>
+            </div>
+            <button class="popular__card--button section__button">
+              Add to cart
+            </button>
+          </div>
+          <div class="popular__card">
+            <span class="popular__card--heart"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <img
+              class="popular__card--image"
+              src="./images/food-1.png"
+              alt="food 1 image"
+            />
+            <h3 class="popular__card--title">delicious food</h3>
+            <div class="popular__card--stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(50)</span>
+            </div>
+            <div class="popular__card--prices">
+              <p class="popular__card--discount">$40.00</p>
+              <p class="popular__card--price">$50.00</p>
+            </div>
+            <button class="popular__card--button section__button">
+              Add to cart
+            </button>
+          </div>
+          <div class="popular__card">
+            <span class="popular__card--heart"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <img
+              class="popular__card--image"
+              src="./images/food-1.png"
+              alt="food 1 image"
+            />
+            <h3 class="popular__card--title">delicious food</h3>
+            <div class="popular__card--stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(50)</span>
+            </div>
+            <div class="popular__card--prices">
+              <p class="popular__card--discount">$40.00</p>
+              <p class="popular__card--price">$50.00</p>
+            </div>
+            <button class="popular__card--button section__button">
+              Add to cart
+            </button>
+          </div>
+          <div class="popular__card">
+            <span class="popular__card--heart"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <img
+              class="popular__card--image"
+              src="./images/food-1.png"
+              alt="food 1 image"
+            />
+            <h3 class="popular__card--title">delicious food</h3>
+            <div class="popular__card--stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(50)</span>
+            </div>
+            <div class="popular__card--prices">
+              <p class="popular__card--discount">$40.00</p>
+              <p class="popular__card--price">$50.00</p>
+            </div>
+            <button class="popular__card--button section__button">
+              Add to cart
+            </button>
+          </div>
+          <div class="popular__card">
+            <span class="popular__card--heart"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <img
+              class="popular__card--image"
+              src="./images/food-1.png"
+              alt="food 1 image"
+            />
+            <h3 class="popular__card--title">delicious food</h3>
+            <div class="popular__card--stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(50)</span>
+            </div>
+            <div class="popular__card--prices">
+              <p class="popular__card--discount">$40.00</p>
+              <p class="popular__card--price">$50.00</p>
+            </div>
+            <button class="popular__card--button section__button">
+              Add to cart
+            </button>
+          </div>
+          <div class="popular__card">
+            <span class="popular__card--heart"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <img
+              class="popular__card--image"
+              src="./images/food-1.png"
+              alt="food 1 image"
+            />
+            <h3 class="popular__card--title">delicious food</h3>
+            <div class="popular__card--stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(50)</span>
+            </div>
+            <div class="popular__card--prices">
+              <p class="popular__card--discount">$40.00</p>
+              <p class="popular__card--price">$50.00</p>
+            </div>
+            <button class="popular__card--button section__button">
+              Add to cart
+            </button>
+          </div>
+          <div class="popular__card">
+            <span class="popular__card--heart"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+            <img
+              class="popular__card--image"
+              src="./images/food-1.png"
+              alt="food 1 image"
+            />
+            <h3 class="popular__card--title">delicious food</h3>
+            <div class="popular__card--stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <span>(50)</span>
+            </div>
+            <div class="popular__card--prices">
+              <p class="popular__card--discount">$40.00</p>
+              <p class="popular__card--price">$50.00</p>
+            </div>
+            <button class="popular__card--button section__button">
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Popular section ends -->
+  </body>
+</html>

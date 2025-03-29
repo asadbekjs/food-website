@@ -1,0 +1,141 @@
+/* import CSS files  */
+@import url("./shared.css");
+/* Header section styles */
+.header {
+  position: sticky;
+  top: 0;
+  padding: 16px 0;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 100;
+}
+.header__list {
+  gap: 24px;
+}
+.header__buttons {
+  gap: 6px;
+}
+.header__logo {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-weight: 600;
+}
+.header__logo i {
+  color: var(--primary-color);
+  margin-right: 6px;
+}
+.header__link {
+  font-size: 18px;
+  color: var(--gray-color);
+}
+.header__link:hover {
+  color: var(--primary-color);
+}
+.header__btn {
+  color: var(--secondary-color);
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  cursor: pointer;
+}
+.header__btn:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+/* Hero section styles */
+.hero__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.hero__left,
+.hero__right {
+  flex: 1 1 600px;
+}
+.hero__subtitle {
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.hero__title {
+  font-size: 40px;
+  color: var(--secondary-color);
+  margin: 16px 0;
+}
+.hero__button {
+  margin-top: 10px;
+}
+.hero__title > span {
+  color: var(--primary-color);
+}
+.hero__image1 {
+  width: 100%;
+}
+.hero__image2 {
+  width: 48vw;
+  position: absolute;
+  top: -128px;
+  right: -168px;
+}
+/* Category section styles */
+.category {
+  position: relative;
+  z-index: 10;
+  margin: 32px 0;
+}
+.category__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.category__card {
+  background-color: var(--white-color);
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+.category__card:hover {
+  background-color: var(--primary-color);
+}
+.category__card:hover > .category__title {
+  color: var(--white-color);
+}
+.category__image {
+  height: 70px;
+}
+/* Popular section styles */
+.popular__top {
+  text-align: center;
+}
+.popular__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.popular__card {
+  position: relative;
+  flex: 1 1 calc((1240px - 16px * 3) / 4);
+  background-color: var(--white-color);
+  border-radius: 6px;
+  text-align: center;
+  /* padding: 20px; */
+}
+.popular__card--heart {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  cursor: pointer;
+  font-size: 25px;
+  color: var(--gray-color);
+}
+.popular__card--heart:hover {
+  color: var(--primary-color);
+}

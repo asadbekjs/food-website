@@ -1,0 +1,69 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+/* CSS Variables */
+:root {
+  --primary-color: #27ae60;
+  --secondary-color: #130f40;
+  --gray-color: #666666;
+  --white-color: #f7f7f7;
+}
+/* Core styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  text-transform: capitalize;
+}
+body {
+  font-family: "Poppins", serif;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.section__subtitle {
+  font-family: "Satisfy", serif;
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 400;
+}
+.section__title {
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section__button {
+  padding: 7px 18px;
+  background-color: var(--primary-color);
+  font-size: 17px;
+  border-radius: 5px;
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+}
+.section__button:hover {
+  background-color: var(--secondary-color);
+}
+.section__description {
+  font-size: 14px;
+  color: var(--gray-color);
+  line-height: 2;
+}
