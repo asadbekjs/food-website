@@ -373,11 +373,141 @@
     </div>
     <!-- Popular section ends -->
 
-    <!-- Footer -->
-    <footer class="footer">
-      <a href="#">Created Asadbek Rakhimov</a>
-      <p>All right reserved</p>
-    </footer>
-    <!-- Footer -->
+    <!-- Order section starts -->
+    <section class="order">
+      <div class="container">
+        <div class="order__wrapper">
+          <div class="order__top">
+            <h3 class="order__subtitle section__subtitle">Order now</h3>
+            <h2 class="order__title section__title">fastest home delivery</h2>
+          </div>
+          <div class="order__medium">
+            <div class="order__card">
+              <img
+                class="order__card--image"
+                src="./images/icon-1.png"
+                alt="time icon image"
+              />
+              <h4 class="order__card--title">7:00am to 10:30pm</h4>
+            </div>
+            <div class="order__card">
+              <img
+                class="order__card--image"
+                src="./images/icon-2.png"
+                alt="phone icon image"
+              />
+              <h4 class="order__card--title">+123-456-7890</h4>
+            </div>
+            <div class="order__card">
+              <img
+                class="order__card--image"
+                src="./images/icon-3.png"
+                alt="location icon image"
+              />
+              <h4 class="order__card--title">shavat, uzbekistan - 478708</h4>
+            </div>
+          </div>
+          <div class="order__bottom">
+            <form class="order__form">
+              <div class="order__form--left">
+                <div class="order__form--block">
+                  <label class="order__form--label" for="name">Your name</label>
+                  <input
+                    class="order__form--input"
+                    type="text"
+                    id="name"
+                    placeholder="customer's name"
+                  />
+                </div>
+                <div class="order__form--block">
+                  <label class="order__form--label" for="foodName"
+                    >Your order</label
+                  >
+                  <input
+                    class="order__form--input"
+                    type="text"
+                    id="foodName"
+                    placeholder="food you want"
+                  />
+                </div>
+                <div class="order__form--block">
+                  <label class="order__form--label" for="message"
+                    >Your details</label
+                  >
+                  <input
+                    class="order__form--input"
+                    type="text"
+                    id="message"
+                    placeholder="your message"
+                  />
+                </div>
+                <div class="order__form--block">
+                  <label class="order__form--label" for="address"
+                    >Your address</label
+                  >
+                  <textarea
+                    class="order__form--textarea order__form--input"
+                    id="address"
+                    placeholder="your address"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="order__form--button section__button"
+                >
+                  Proceed to order
+                </button>
+              </div>
+              <div class="order__form--right">
+                <div class="order__form--block">
+                  <label class="order__form--label" for="phoneNumber"
+                    >Your number</label
+                  >
+                  <input
+                    class="order__form--input"
+                    type="tel"
+                    id="phoneNumber"
+                    placeholder="customer's number"
+                  />
+                </div>
+                <div class="order__form--block">
+                  <label class="order__form--label" for="howMuch"
+                    >How much</label
+                  >
+                  <input
+                    class="order__form--input"
+                    type="number"
+                    id="howMuch"
+                    placeholder="number of orders"
+                  />
+                </div>
+                <div class="order__form--block">
+                  <label class="order__form--label" for="pickupTime"
+                    >Pickup time</label
+                  >
+                  <input
+                    class="order__form--input"
+                    type="datetime-local"
+                    id="pickupTime"
+                  />
+                </div>
+                <div class="order__form--location">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.1383454426295!2d60.29522361487322!3d41.652752831088755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41de4968ad3966a5%3A0x35ac6c97935f113d!2sShavat%20Uztelecom!5e0!3m2!1sen!2s!4v1743678409823!5m2!1sen!2s"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Order section ends -->
   </body>
 </html>

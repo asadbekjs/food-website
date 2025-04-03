@@ -139,3 +139,70 @@
 .popular__card--heart:hover {
   color: var(--primary-color);
 }
+/* Order section styles */
+.order {
+  margin: 40px 0;
+}
+.order__top {
+  text-align: center;
+}
+.order__medium {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 20px 0;
+}
+.order__card {
+  flex: 1;
+  background-color: var(--white-color);
+  border-radius: 6px;
+  text-align: center;
+  padding: 20px;
+}
+.order__card--image {
+  height: 100px;
+}
+.order__card--title {
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+.order__bottom {
+  padding: 20px;
+  background-color: var(--white-color);
+  border-radius: 6px;
+}
+.order__form {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.order__form--left,
+.order__form--right {
+  flex: 1;
+}
+.order__form--label {
+  display: block;
+  font-size: 17px;
+  color: var(--gray-color);
+}
+.order__form--block {
+  margin-bottom: 12px;
+}
+.order__form--input {
+  margin-top: 4px;
+  padding: 10px 12px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  border: none;
+  outline: none;
+}
+.order__form--textarea {
+  height: 200px;
+}
+.order__form--location > iframe {
+  height: 226px;
+  border-radius: 6px;
+}
