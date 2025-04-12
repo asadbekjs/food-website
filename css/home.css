@@ -139,6 +139,76 @@
 .popular__card--heart:hover {
   color: var(--primary-color);
 }
+/* Banner section styles */
+.banner__top {
+  background-image: url(/images/banner-1.png);
+  height: 450px;
+  position: relative;
+}
+
+.banner__top button {
+  margin: 10px 0;
+}
+
+.banner__top--content {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+.banner__top--subtitle {
+  color: var(--secondary-color);
+}
+
+.banner__top--title {
+  color: #f00;
+  font-size: 60px;
+}
+
+.banner__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.banner__card {
+  height: 450px;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.banner__card:hover img {
+  transform: scale(1.1);
+}
+
+.banner__card img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner__card--subtitle {
+  font-weight: 400;
+  margin: 10px 0;
+}
+.banner__card--content {
+  color: var(--white-color);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.banner__card--content2 {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.banner__card--content2 h3 {
+  font-weight: 400;
+}
 /* Order section styles */
 .order {
   margin: 40px 0;

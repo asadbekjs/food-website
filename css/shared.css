@@ -8,6 +8,20 @@
   --gray-color: #666666;
   --white-color: #f7f7f7;
 }
+/* Custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--white-color);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 8px;
+}
 /* Core styles */
 * {
   margin: 0;
